@@ -1,0 +1,23 @@
+.big {
+    margin-top: 43px;
+    &__title {
+        @include font(700, 40px, $text-black);
+    }
+    &__description {
+        @include font(400, 16px, $text-lightGray);
+        margin: 24px 0 31px 0;
+    }
+    &__date {
+        @include font(400, 16px, #4A5568);
+    }
+    &__link {
+        @include font(700, 16px, $text-black);
+    }
+    &__item {
+        background: #f7fafc;
+        @include flex (center, space-between, nowrap);
+    }
+    &__text {
+        padding: 0 64px;
+    }
+}
